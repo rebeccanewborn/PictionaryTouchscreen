@@ -7,6 +7,13 @@ canvas {
 	border: 5px black solid;
 }
 
+.lock-screen {
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+}
+
 .chat {
 	display: block;
 }
