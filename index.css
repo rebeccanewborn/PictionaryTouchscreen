@@ -1,0 +1,43 @@
+#allMessages {
+	width: 490px;
+	border: 1px black black;
+}
+
+canvas {
+	border: 5px black solid;
+}
+
+.chat {
+	display: block;
+}
+
+.login {
+	max-width: 300px;
+	min-width: 300px;
+}
+
+.landing {
+	min-height: 100%;
+	min-width: 100%;
+	background-color: #cce2ff;
+}
+
+.player {
+	max-width: 50px;
+}
+
+.border {
+	border: 5px black solid;
+}
+
+.correct {
+	color: #38ab0d;
+}
+
+.slider {
+	width: 75px;
+}
+
+#demo {
+	border-style: none;
+}
