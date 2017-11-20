@@ -46,7 +46,6 @@
           <h1 class="ui header">!PICTIONARY</h1>
           <h3 id="keyword" class="ui header"></h3>
           <canvas id="canvas" width="490" height="600"></canvas>
-          <img id="image" width="490" height="600" class="border" hidden>
           <div id="canvasTools">
             <div class="row">
               <div class="eight wide column">
@@ -62,39 +61,7 @@
           </div>
         </div>
 
-        <div id="sidebar" class="column" hidden>
-          <div class="vertically divided grid">
 
-            <div class="row">
-              <h1 style="text-align:left;">Leaderboard</h1>
-              <div id="scoreboard" class="ui feed"></div>
-              <div class="ui divider"></div>
-            </div>
-
-            <br>
-
-            <div class="row" id="chatroom">
-              <div class="ui grid">
-                <h1>Recent Messages</h1>
-                <div id="message">
-                  <form id="message_form" class="ui form" action="index.html" method="post">
-                    <div class="inline fields">
-                      <div class="field">
-                        <input id="message_text" type="text" placeholder="Take a guess!">
-                      </div>
-                      <button class='ui blue submit button' type="submit" name="submit">Send</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-
-              <div id="allMessages" class="ui feed"></div>
-              <div class="ui divider"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 </div>
     <script src = "index.js"></script>
   </body>
